@@ -1,0 +1,88 @@
+# ─── Python / Backend ───────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+
+# Virtual environment (includes Lib/, Scripts/, pyvenv.cfg, etc.)
+venv/
+venv*/
+env/
+.venv/
+ENV/
+Lib/
+Scripts/
+pyvenv.cfg
+Include/
+
+# Environment variables
+.env
+.env.*
+*.env
+
+# ─── Flask / SQLAlchemy ─────────────────────────────────────────
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# ─── Node / Frontend ────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# React build output
+/frontend/build/
+/frontend/dist/
+
+# ─── Tailwind / PostCSS ─────────────────────────────────────────
+*.css.map
+
+# ─── IDEs & Editors ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ─── OS files ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Logs ───────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Secrets / Keys ─────────────────────────────────────────────
+*.pem
+*.key
+*.cert
+secrets.py
+config_local.py
+
+# ─── MySQL ──────────────────────────────────────────────────────
+*.sql.bak
+mysql_data/
+
+# ─── Coverage / Testing ─────────────────────────────────────────
+.coverage
+htmlcov/
+.pytest_cache/
+coverage.xml
+
+# ─── Misc ───────────────────────────────────────────────────────
+*.bak
+*.tmp
+*.temp
